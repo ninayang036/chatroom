@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACB137E8264E599E0083860A /* JasmineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB137E6264E599E0083860A /* JasmineTableViewCell.swift */; };
+		ACB137E9264E599E0083860A /* JasmineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB137E7264E599E0083860A /* JasmineTableViewCell.xib */; };
 		ACB770A426451BFD006436D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770A326451BFD006436D7 /* AppDelegate.swift */; };
 		ACB770A626451BFD006436D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770A526451BFD006436D7 /* SceneDelegate.swift */; };
-		ACB770A826451BFD006436D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770A726451BFD006436D7 /* ViewController.swift */; };
 		ACB770AB26451BFD006436D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB770A926451BFD006436D7 /* Main.storyboard */; };
 		ACB770AD26451C03006436D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB770AC26451C03006436D7 /* Assets.xcassets */; };
 		ACB770B026451C03006436D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB770AE26451C03006436D7 /* LaunchScreen.storyboard */; };
+		ACFC70E5264BBBE400A5126E /* AladdinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC70E3264BBBE400A5126E /* AladdinTableViewCell.swift */; };
+		ACFC70E6264BBBE400A5126E /* AladdinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFC70E4264BBBE400A5126E /* AladdinTableViewCell.xib */; };
+		ACFC70EA264BBD9600A5126E /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC70E9264BBD9600A5126E /* ChatTableViewController.swift */; };
+		ACFC70EC264D101000A5126E /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC70EB264D101000A5126E /* Lyrics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACB137E6264E599E0083860A /* JasmineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasmineTableViewCell.swift; sourceTree = "<group>"; };
+		ACB137E7264E599E0083860A /* JasmineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JasmineTableViewCell.xib; sourceTree = "<group>"; };
 		ACB770A026451BFD006436D7 /* chatroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB770A326451BFD006436D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB770A526451BFD006436D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACB770A726451BFD006436D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACB770AA26451BFD006436D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACB770AC26451C03006436D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB770AF26451C03006436D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB770B126451C03006436D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFC70E3264BBBE400A5126E /* AladdinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AladdinTableViewCell.swift; sourceTree = "<group>"; };
+		ACFC70E4264BBBE400A5126E /* AladdinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AladdinTableViewCell.xib; sourceTree = "<group>"; };
+		ACFC70E9264BBD9600A5126E /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		ACFC70EB264D101000A5126E /* Lyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyrics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				ACB770A326451BFD006436D7 /* AppDelegate.swift */,
 				ACB770A526451BFD006436D7 /* SceneDelegate.swift */,
-				ACB770A726451BFD006436D7 /* ViewController.swift */,
 				ACB770A926451BFD006436D7 /* Main.storyboard */,
+				ACB137E6264E599E0083860A /* JasmineTableViewCell.swift */,
+				ACB137E7264E599E0083860A /* JasmineTableViewCell.xib */,
+				ACFC70E9264BBD9600A5126E /* ChatTableViewController.swift */,
+				ACFC70E3264BBBE400A5126E /* AladdinTableViewCell.swift */,
+				ACFC70E4264BBBE400A5126E /* AladdinTableViewCell.xib */,
+				ACFC70EB264D101000A5126E /* Lyrics.swift */,
 				ACB770AC26451C03006436D7 /* Assets.xcassets */,
 				ACB770AE26451C03006436D7 /* LaunchScreen.storyboard */,
 				ACB770B126451C03006436D7 /* Info.plist */,
@@ -124,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB137E9264E599E0083860A /* JasmineTableViewCell.xib in Resources */,
 				ACB770B026451C03006436D7 /* LaunchScreen.storyboard in Resources */,
+				ACFC70E6264BBBE400A5126E /* AladdinTableViewCell.xib in Resources */,
 				ACB770AD26451C03006436D7 /* Assets.xcassets in Resources */,
 				ACB770AB26451BFD006436D7 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB770A826451BFD006436D7 /* ViewController.swift in Sources */,
 				ACB770A426451BFD006436D7 /* AppDelegate.swift in Sources */,
 				ACB770A626451BFD006436D7 /* SceneDelegate.swift in Sources */,
+				ACFC70E5264BBBE400A5126E /* AladdinTableViewCell.swift in Sources */,
+				ACFC70EC264D101000A5126E /* Lyrics.swift in Sources */,
+				ACFC70EA264BBD9600A5126E /* ChatTableViewController.swift in Sources */,
+				ACB137E8264E599E0083860A /* JasmineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

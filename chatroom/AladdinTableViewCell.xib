@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="AladdinTableViewCell" customModule="chatroom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jasmine e Aladdin" translatesAutoresizingMaskIntoConstraints="NO" id="woq-oY-IHK">
+                        <rect key="frame" x="9" y="9" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="woq-oY-IHK" secondAttribute="height" multiplier="1:1" id="KXf-hU-x97"/>
+                            <constraint firstAttribute="width" constant="50" id="po6-xi-g4X"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Text" translatesAutoresizingMaskIntoConstraints="NO" id="9tF-aN-9tv">
+                        <rect key="frame" x="67" y="9" width="37.5" height="33"/>
+                        <color key="backgroundColor" red="0.73345344209999996" green="0.86471956240000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="woq-oY-IHK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="Hh4-ME-JAd"/>
+                    <constraint firstItem="9tF-aN-9tv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="WWl-00-uSc"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9tF-aN-9tv" secondAttribute="trailing" constant="10" id="YvS-R3-fD6"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9tF-aN-9tv" secondAttribute="bottom" constant="10" id="fVI-uq-bbV"/>
+                    <constraint firstItem="9tF-aN-9tv" firstAttribute="leading" secondItem="woq-oY-IHK" secondAttribute="trailing" constant="8" symbolic="YES" id="qcW-3E-wa3"/>
+                    <constraint firstItem="9tF-aN-9tv" firstAttribute="top" secondItem="woq-oY-IHK" secondAttribute="top" id="rh6-Y4-x5D"/>
+                    <constraint firstItem="woq-oY-IHK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="wzm-tr-O6V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="AladdinImg" destination="woq-oY-IHK" id="z7W-Ea-il9"/>
+                <outlet property="AladdinText" destination="9tF-aN-9tv" id="nlm-2m-ne6"/>
+            </connections>
+            <point key="canvasLocation" x="339" y="3"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Jasmine e Aladdin" width="680" height="680"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
